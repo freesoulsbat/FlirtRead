@@ -1,11 +1,6 @@
 # FlirtRead
 
 
-blab lab bla
-teste
-
-teste
-
 testeee
 
 
