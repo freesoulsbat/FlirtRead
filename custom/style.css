@@ -39,6 +39,18 @@
     box-shadow: 0px 0px 5px 2px #C2383A !important;
 }
 
+.items-header {
+    height: 110px;
+    padding-left: 60px
+}
+
+.first-ul-header {
+    padding-left: 60px;
+}
+
+.form-header {
+    margin-bottom: 0 !important;
+}
 
 /* .logo-font {
     font-family: "Parisienne", cursive;
