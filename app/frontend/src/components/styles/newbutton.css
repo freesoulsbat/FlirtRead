@@ -1,0 +1,17 @@
+.button-aside {
+    margin: 15px 0px;
+    background-color: #C2383A;
+    border: none;
+    outline: transparent;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    color: white;
+}
+
+.button-aside:hover {
+    cursor: pointer;
+    background-color: rgba(194, 56, 58, 0.85);
+    transform: scale(1.1);
+    transition: 0.5s;
+}

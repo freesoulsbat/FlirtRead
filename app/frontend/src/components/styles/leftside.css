@@ -1,0 +1,10 @@
+.leftside {
+    margin-top: 15px;
+}
+
+.form-menu{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}

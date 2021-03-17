@@ -1,0 +1,19 @@
+{
+  "name": "flirtread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeSoulsDotBat/FlirtRead.git"
+  },
+  "author": "A.N.C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreeSoulsDotBat/FlirtRead/issues"
+  },
+  "homepage": "https://github.com/FreeSoulsDotBat/FlirtRead#readme"
+}
