@@ -1,9 +1,11 @@
 import React from 'react'
 import './styles/header.css'
 // import 'bootstrap/dist/css/bootstrap.min.js'
+import Brand from '../components/Brand'
 
 const header = props => 
     <header className="header">
+        <Brand/>
         <form>
             <input type="text" placeholder="Pesquisar..."/>
             <button>
