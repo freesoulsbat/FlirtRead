@@ -2,29 +2,67 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #faf0f0;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    background: #a5a5a5;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 50%;
+}
+
 .app{
     margin: 0px;
     display: grid;
-    grid-template-columns: 300px 1fr 1fr;
+    grid-template-columns: 25% 2fr 1fr;
     grid-template-rows: 85px 100vh;
 
     grid-template-areas: 
-    "logo header header"
-    "aside content content";
-}
-
-header.header {
-    grid-area: header;
+    "header header header"
+    "aside content sugestions";
 }
 
 aside.leftside{
     grid-area: aside;
 }
 
-main.content {
+div.area {
     grid-area: content;
 }
 
-aside.logo {
-    grid-area: logo;
+aside.sugestions-and-others {
+    grid-area: sugestions;
 }
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-row: inherit;
+    grid-template-areas: "logo form input";
+
+
+    box-shadow: 0px 0px 5px black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.header aside.logo{
+    grid-area: logo
+}
+
+.header form {
+    grid-area: form;
+}
+
+.header nav.nav-header {
+    grid-area: input;
+}
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/newbutton.css'
+import './styles/buttonsleftside.css'
 
 const button = props =><span className="newButton">
         <button className="button-aside">{props.text}</button>

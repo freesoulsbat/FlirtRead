@@ -1,11 +1,9 @@
 aside.logo {
-    /* background-color:  rgba(194, 56, 58, 0.1); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 aside.logo img {
-    padding: 0px 25px 0px 25px;
     height: 85px;
 }
