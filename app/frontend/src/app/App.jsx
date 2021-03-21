@@ -1,10 +1,9 @@
 import React from 'react'
 import './app.css'
-import Header from '../components/Header'
-import Leftside from '../components/Leftside'
-import Main from '../components/Main'
-
-
+import Header from '../components/header/Header'
+import Leftside from '../components/home/AsideLeft'
+import Main from '../components/home/Main'
+import Sugestions from '../components/home/SugestionsAndOthers'
 
 
 export default class App extends React.Component {
@@ -14,6 +13,7 @@ export default class App extends React.Component {
             <Header/>
             <Leftside/>
             <Main/>
+            <Sugestions/>
         </div>
     }
 
