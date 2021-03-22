@@ -13,14 +13,14 @@
 .sugestions-and-others div.box1 {
     grid-area: content1;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     background-color: white;
 }
 
 .sugestions-and-others div.box2 {
     grid-area: content2;
     border-radius: 15px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     background-color: white;
 }
 

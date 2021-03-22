@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/sugestionsandothers.css'
+import '../styles/sugestionsandothers.css'
 
 const sugestions = props => 
     <aside className='sugestions-and-others'>
