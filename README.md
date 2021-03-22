@@ -1,5 +1,5 @@
 # FlirtRead
-<h2>Projeto de desenvolvimento de uma rede social amorosa</h2>
+<h2>Projeto de desenvolvimento de uma rede social!</h2>
 <h4>Objetivo da rede:</h4>
 <p>Como qualquer outra rede social o objetivo primário é CONECTAR PESSOAS, porém dessa vez será por meio de livros! Como feature principal o FlirtRead conectará pessoas com o mesmo gosto literário, porém não irá parar apenas nisso, criando uma comunidadde jamais vista de leitores!</p>
 
@@ -26,5 +26,5 @@
   <li>Linkedin dos criadores: <a href="https://www.linkedin.com/in/jonatan-bossan/">Jonatãn Bossan</a> e <a href="https://www.linkedin.com/in/gregory-h-43205aa8/">Gregory Heringer</a></li>
   <li>Github dos criadores: <a href="https://github.com/FreeSoulsDotBat">Jonatãn Bossan</a> e <a href="https://github.com/GregoryHV">Gregory Heringer</a></li>
   <li>Twitter: <a href="https://twitter.com/Jhow_fb">Jonatãn Bossan</a></li>
-  <li>Email: jonatan.fbossan@gmail.com </li>
+  <li>Email: jonatan.fbossan@gmail.com e gregoryhenringer@gmail.com </li>
 </ul>
