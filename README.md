@@ -8,13 +8,12 @@
   <li>Javascript;</li>
   <li>React.js</li>
   <li>Node.js</li>
-  <li>Bootstrap e Bootstrap-icons</li>
+  <li>Chakra UI (design system)</li>
+  <li>React Routes</li>
 </ul>
 <h4>Tecnologia pretendidas a serem utilizadas posteriormente: </h4>
 <ul>
   <li>Python; (para o backend...porém não é certo ainda)</li>
-  <li>Chakra UI; (trocando pelo Bootstrap)</li>
-  <li>react-routes; (ou express)</li>
 </ul>
 
 <h2>Andamento do projeto:</h2>
