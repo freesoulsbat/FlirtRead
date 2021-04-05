@@ -1,21 +1,18 @@
 import React from 'react'
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
+import { Box } from '@chakra-ui/react'
+
+import Tabs from './Tabs'
+// import Content from './Content'
 
 
-const tabs = props => 
-    <Tabs variant="soft-rounded" colorScheme="green">
-    <TabList>
-        <Tab>Tab 1</Tab>
-        <Tab>Tab 2</Tab>
-    </TabList>
-    <TabPanels>
-        <TabPanel>
-        <p>one!</p>
-        </TabPanel>
-        <TabPanel>
-        <p>two!</p>
-        </TabPanel>
-    </TabPanels>
-    </Tabs>
+const tabs = props =>
+    <Box 
+        gridArea='content'
+        display='grid'
+        gridTemplateColumns='100%'
+        gridTemplateRows='100vh'
+        gridTemplateAreas="'content content content'">        
+        <Tabs/>
+    </Box>
     
 export default tabs

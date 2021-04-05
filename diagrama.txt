@@ -1,0 +1,82 @@
+Usuário:
+    Autenticação:
+        Login com outras redes.
+    Perfil:
+        Configurações;
+        Editar Perfil;
+        Livros lidos;
+        Livros pra ler;
+        Notificações;
+        Posts; ¹
+        Classificação de lidos;
+        Publicações salvas;
+        Verificação.
+Livros:
+    Páginas próprias:
+        Sinopse;
+        Título;
+        Autor;
+        Ano de Publicação;
+        Foto da capa;
+        Editora;
+        Gênero;
+        Trivias.
+    Espaço para catalogar livro não existente;
+    Área de similares;
+    Comentários de perfis verificados;
+    Sugestões de valores:
+        Buscador de valores na internet. (através de api)
+    MarketPlace; (para troca de livros entre usuários)
+Funcionalidades:
+    Notificações:
+        Curtidas/Reações;
+        Comentários;
+        Novos Leitores;
+        Novos FlirtReaders;
+        Novos interessados em troca;
+        Novos livros lançados de acordo com o gosto do usuário.
+    Algoritmos:
+        Sugestões por relevância:
+            Sugestões de livros;
+            Sugestões de posts com base nos gostos;
+            Sugestões de amizade.
+        Encontre um Booush:
+            Sugestões de pessoas do gosto sexual com mesmos interesses;
+            Sistemas de match.
+        FlirtReaders:
+            Algoritmo que mude o estado de leitor para FlirtReaders mediante engajamento.
+    Interações:
+        Compartilhamento;
+        interação com outros usuários:
+            Chat;
+            Comentários no perfil;
+            Comentários nos livros;
+            Sugestões de livros;
+            Comunidades;
+            Grupos;
+            Páginas;
+        Classificação de livros;
+        Leitores, escritores e FlirtReaders.
+Conteúdos:
+    Posts:
+        Vídeos;
+        Fotos;
+        Artigo; (de citações a livros inteiros)
+        Comentários;
+        Textos pequenos;
+        Interações nas postagens; (Curtidas e etc)
+        Status.
+    Explorar:
+        Posts relacionados ao gosto;
+        Sugestões de livros relacionados ao gosto;
+        Categorias para pesquisar por novos gostos;
+    Trending de debates no momento( achar melhor nome para isso ):
+        Top discussões de livros no momento;
+        Abertura de grupos;
+        Páginas e criação de páginas.
+        Twitts avulsos a respeito de livros ( achar melhor nome )
+    
+
+
+
+*Como pegar as informações de novos livros lançados?*
