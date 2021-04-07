@@ -5,6 +5,8 @@ import Header from '../header/Header'
 import Main from './Main'
 import AsideLeft from './AsideLeft'
 import SugestionsAndOthers from './SugestionsAndOthers'
+import {Box} from '@chakra-ui/react'
+
 
 const home = props =>
     <Box
