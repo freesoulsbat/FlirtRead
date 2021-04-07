@@ -1,13 +1,14 @@
 import React from 'react'
 import Logo from '../assets/images/thumb-logo.png'
 
-import { Link } from "@chakra-ui/react"
+// import { Link } from "@chakra-ui/react"
 import { Image } from "@chakra-ui/react"
 import { Flex } from "@chakra-ui/react"
+import {Link} from 'react-router-dom'
 
 const brand = props =>
     <Flex justify="center" align="center">
-        <Link href="#/" _focus={{border: 'none'}}>
+        <Link to="/" _focus={{border: 'none'}}>
             <Image 
                 src={Logo} 
                 alt='logo'

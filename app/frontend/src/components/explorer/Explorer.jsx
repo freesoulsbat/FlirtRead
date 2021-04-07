@@ -5,12 +5,7 @@ import Header from '../header/Header'
 import { Box } from '@chakra-ui/react'
 
 const explorer = props =>
-    <Box
-        as='div'
-        display='grid'
-        gridTemplateColumns='22% 50% 28%'
-        gridTemplateRows='85px 100vh'
-        gridTemplateAreas="'header header header' 'content content content'">
+    <Box as='div'>
         <Header/>
         <Main/>
     </Box>
