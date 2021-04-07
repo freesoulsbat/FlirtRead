@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/images/thumb-logo.png'
+import Logo from '../assets/images/Jory-logo-direita.png'
 
 // import { Link } from "@chakra-ui/react"
 import { Image } from "@chakra-ui/react"
