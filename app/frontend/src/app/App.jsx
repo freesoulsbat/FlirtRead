@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import {HashRouter} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 import Routes from './Routes'
 
@@ -10,9 +10,9 @@ export default class App extends React.Component {
     render(){
         return (
         <React.Fragment >
-            <HashRouter>
+            <Router>
                 <Routes/>
-            </HashRouter>
+            </Router>
         </React.Fragment>
         )
     }
