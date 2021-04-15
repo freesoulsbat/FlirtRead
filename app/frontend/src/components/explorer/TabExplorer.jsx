@@ -12,7 +12,7 @@ import NewImage from '../templates/NewImage'
 import './custom.css'
 
 const explorer = props =>
-    <Grid templateColumns='1fr 1fr 1fr 1fr 1fr' gap="20px">
+    <Grid mt='15px' templateColumns='1fr 1fr 1fr 1fr 1fr' gap="20px">
         <NewImage src={Image1} width='250px' height='250px'/>
         <NewImage src={Image2} width='250px' height='250px'/>
         <NewImage src={Image3} width='250px' height='250px'/>
