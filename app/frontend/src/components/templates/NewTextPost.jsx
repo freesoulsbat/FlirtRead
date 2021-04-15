@@ -18,8 +18,8 @@ const text = props =>
             <Box
                 as='div'
                 gridArea='avatar'>
-                <Link href={props.profileLink}>
-                    <Avatar  size='lg' src={props.profile}/>
+                <Link href={props.link}>
+                    <Avatar  size='lg' src={props.img}/>
                 </Link>
             </Box>
             <Heading

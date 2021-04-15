@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import {Box, Grid } from "@chakra-ui/react"
-import TabExplorer from './TabExplorer'
-import TabWorks from './TabWorks'
 import {Link, BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
+import TabExplorer from './TabExplorer'
+import TabJorys from './TabJorys'
+import TabSugestions from './TabSugestions'
 import './custom.css'
 
 export default class Tabs extends Component {
@@ -34,8 +36,7 @@ export default class Tabs extends Component {
             break
             default:
             break
-        }
-                
+        }          
     }
 
     render() {
@@ -51,6 +52,7 @@ export default class Tabs extends Component {
                                 as='div'
                                 gridArea='tab'
                                 m='auto'
+                                mt='10px'
                                 display='flex'
                                 flexDirection='row'>
                                 <Link to='/explorer' onClick={this.isClicked} >
@@ -102,7 +104,10 @@ export default class Tabs extends Component {
                                         <TabExplorer/>
                                     </Route>
                                     <Route path='/jorys'>
-                                        <TabWorks/>
+                                        <TabJorys/>
+                                    </Route>
+                                    <Route path='/sugestions'>
+                                        <TabSugestions/>
                                     </Route>
                                 </Switch>
                                 

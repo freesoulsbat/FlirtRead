@@ -1,6 +1,4 @@
 import React from 'react'
-import {Box} from '@chakra-ui/react'
-
 import Header from '../header/Header'
 import Main from './Main'
 import AsideLeft from './AsideLeft'

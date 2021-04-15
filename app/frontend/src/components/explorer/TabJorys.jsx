@@ -5,9 +5,9 @@ import NewTextPost from '../templates/NewTextPost'
 import './custom.css'
 
 const explorer = props =>
-        <Grid templateColumns='1fr 1fr' gap='20px'>
+        <Grid mt='15px' templateColumns='1fr 1fr' gap='20px'>
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Carla Almeida'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
@@ -19,7 +19,7 @@ const explorer = props =>
                 mas também o salto ...'
                 />
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Pedro de Lima'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
@@ -31,7 +31,7 @@ const explorer = props =>
                 mas também o salto ...'
                 />
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Gustavo Freitas'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
@@ -43,7 +43,7 @@ const explorer = props =>
                 mas também o salto ...'
                 />
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Bianca Souza'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
@@ -55,7 +55,7 @@ const explorer = props =>
                 mas também o salto ...'
                 />
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Lucas Albino'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
@@ -67,7 +67,7 @@ const explorer = props =>
                 mas também o salto ...'
                 />
             <NewTextPost 
-                profile={AvatarImage}
+                img={AvatarImage}
                 headingText='Ana Beatriz Silva'
                 paragraphText='O Lorem Ipsum é um 
                 texto modelo da indústria tipográfica e 
